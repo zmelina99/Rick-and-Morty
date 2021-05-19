@@ -1,0 +1,14 @@
+.home{
+    
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-left: 105px;
+    font-family: Shadows Into Light, cursive;
+    font-size: 100px;
+    background-color: rgb(170, 148, 148);
+    border-radius: 10px;
+    width: 85%;
+}
