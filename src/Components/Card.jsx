@@ -16,12 +16,12 @@ export default function Card({result, name, species, id, location, onClose, fav,
                 <div> 
                     <p>Species: {species}</p>
                 </div>
-               {/*  <div>
-                   <img src = {`https://rickandmortyapi.com/api/character/avatar/${id}.jpeg`}/>
+               <div>
+                   <img src = {`https://rickandmortyapi.com/api/character/avatar/${id}.jpeg`} alt= ""/>
                 </div>
                 <div>
-                    <p>Location: {location}</p>
-                </div> */}
+                    <p>Location: {location ? location : "This character has no location"} </p>
+                </div> 
             </div> 
             <div>
                 <button  onClick={fav} id='fav'>⭐</button>
