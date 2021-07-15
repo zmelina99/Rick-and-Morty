@@ -7,9 +7,8 @@
     align-items: center;
    
 }
-.active{
-    font-weight: bolder;
-    color: red;
+span{
+    text-decoration: none;
 }
 
 .letters{
@@ -17,6 +16,10 @@
     font-weight: bold;
     letter-spacing: 1.5px;
     color: #D45F29;
-    font-size: 50px
-
+    font-size: 30px;
+    text-decoration: none;
+}
+.logo{
+    width: 10rem;
+    height: 5rem;
 }

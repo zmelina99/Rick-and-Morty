@@ -1,0 +1,26 @@
+body{
+  
+   background-color: #f8f8f8;
+   background-image: url('https://occ-0-1068-1722.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTrwJVkjJOeYfb0r222jibHXaYrQkhXxSg6JETKeKYbfanXV7rOfqA7d4dDwE3u3ANZHQAfx6EfaYsBXVRFehlSsqn_k.jpg?r=f45');
+   background-size: cover;
+   background-size: cover;
+   background-repeat: no-repeat;
+ background-position: absolute;
+   height:100%;
+   overflow:auto;
+   bottom: 0; 
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+  
+    font-family: Shadows Into Light, cursive;
+    font-size: 60px;
+    background-color: rgb(170, 148, 148);
+    border-radius: 10px;
+    width:fit-content; 
+ }
